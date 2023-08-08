@@ -5,6 +5,8 @@ import CharInfo from "../charInfo/CharInfo";
 import { useState } from "react";
 import decoration from '../../resources/img/vision.png';
 import ErrorBoundary from '../ErrorBoundary/ErrorBoundary';
+// import AppBanner from "../appBanner/AppBanner";
+// import ComicsList from "../comicsList/ComicsList"; //comics
 
 const App = () => {
 
@@ -31,6 +33,8 @@ const App = () => {
                     </ErrorBoundary>
                 </div>
                 <img className="bg-decoration" src={decoration} alt="vision" />
+                {/* <AppBanner />
+                <ComicsList /> */}
             </main>
         </div>
     )
